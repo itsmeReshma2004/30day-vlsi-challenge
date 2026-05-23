@@ -8,7 +8,7 @@ Daily Verilog RTL design projects — built from scratch as a fresher.
 | Day | Project | Skill Learned | Status |
 |-----|---------|---------------|--------|
 | Day 01 | Hello Verilog — Logic Gates | Module, ports, assign, testbench | ✅ Done |
-| Day 02 | Basic Logic Gates | Gate primitives | 🔲 |
+| Day 02 | Basic Logic Gates | Gate primitives | ✅ Done |
 | Day 03 | Half Adder | Dataflow modeling | 🔲 |
 | Day 04 | Full Adder | Structural modeling | 🔲 |
 | Day 05 | 2:1 Multiplexer | always block | 🔲 |
