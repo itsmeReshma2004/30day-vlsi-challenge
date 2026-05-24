@@ -4,16 +4,16 @@ Daily Verilog RTL design projects — built from scratch as a fresher.
 **1 project per day | 1 new skill per day | 30 days**
 
 ## Progress Tracker
-
-| Day | Project | Skill Learned | Status |
-|-----|---------|---------------|--------|
+ 
+| Day    |          Project            |        Skill Learned             | Status |
+|--------|-----------------------------|----------------------------------|--------|
 | Day 01 | Hello Verilog — Logic Gates | Module, ports, assign, testbench | ✅ Done |
-| Day 02 | Basic Logic Gates | Gate primitives | ✅ Done |
-| Day 03 | Half Adder | Dataflow modeling | 🔲 |
-| Day 04 | Full Adder | Structural modeling | 🔲 |
-| Day 05 | 2:1 Multiplexer | always block | 🔲 |
-| Day 06 | 4:1 Multiplexer | case statement | 🔲 |
-| Day 07 | Decoder & Encoder | Combinational logic | 🔲 |
+| Day 02 | Basic Logic Gates           | Gate primitives                  | ✅ Done |
+| Day 03 | Half Adder                  | Dataflow modeling                | ✅ Done |
+| Day 04 | Full Adder                  | Structural modeling              | 🔲 |
+| Day 05 | 2:1 Multiplexer             | always block                     | 🔲 |
+| Day 06 | 4:1 Multiplexer             | case statement                   | 🔲 |
+| Day 07 | Decoder & Encoder           | Combinational logic              | 🔲 |
 | Day 08–30 | ... | ... | 🔲 |
 
 ## Tools Used
