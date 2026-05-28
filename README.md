@@ -12,8 +12,8 @@ Daily Verilog RTL design projects — built from scratch as a fresher.
 | Day 03 | Half Adder                  | Dataflow modeling                | ✅ Done |
 | Day 04 | Full Adder                  | Structural modeling              | ✅ Done |
 | Day 05 | 2:1 Multiplexer             | always block                     | ✅ Done |
-| Day 06 | 4:1 Multiplexer             | case statement                   | 🔲 |
-| Day 07 | Decoder & Encoder           | Combinational logic              | 🔲 |
+| Day 06 | 4:1 Multiplexer             | case statement                   | ✅ Done |
+| Day 07 | Decoder & Encoder           | Combinational logic              | ✅ Done |
 | Day 08–30 | ... | ... | 🔲 |
 
 ## Tools Used
