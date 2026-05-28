@@ -1,0 +1,31 @@
+module tb;
+
+reg [1:0] a;
+reg [3:0] d;
+wire [3:0] dec_out;
+wire [1:0] enc_out;
+
+decoder_2to4 u1(.a(a),.y(dec_out));
+encoder_4to2 u2(.d(d),.y(enc_out));
+
+initial begin
+$dumpfile("dump.vcd");
+$dumpvars(0,u1);
+$dumpvars(1,u2);
+
+$display("=== DECODER 2to4 ===");
+$display("A  | Y");
+a=2'b00;#10;$display("%b | %b",a,dec_out);
+a=2'b01;#10;$display("%b | %b",a,dec_out);
+a=2'b10;#10;$display("%b | %b",a,dec_out);
+a=2'b11;#10;$display("%b | %b",a,dec_out);
+
+$display("=== ENCODER 4to2 ===");
+$display("D    | Y");
+d=4'b0001;#10;$display("%b | %b",d,enc_out);
+d=4'b0010;#10;$display("%b | %b",d,enc_out);
+d=4'b0100;#10;$display("%b | %b",d,enc_out);
+d=4'b1000;#10;$display("%b | %b",d,enc_out);
+$finish;
+end
+endmodule
