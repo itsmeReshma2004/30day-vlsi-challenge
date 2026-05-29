@@ -14,7 +14,8 @@ Daily Verilog RTL design projects — built from scratch as a fresher.
 | Day 05 | 2:1 Multiplexer             | always block                     | ✅ Done |
 | Day 06 | 4:1 Multiplexer             | case statement                   | ✅ Done |
 | Day 07 | Decoder & Encoder           | Combinational logic              | ✅ Done |
-| Day 08–30 | ... | ... | 🔲 |
+| Day 08 | 4-bit Ripple Carry Adder    | Structural modeling at scale +   | ✅ Done |
+                                         carry propagation + bit vectors 
 
 ## Tools Used
 - EDA Playground (Icarus Verilog) — Weeks 1 & 2
