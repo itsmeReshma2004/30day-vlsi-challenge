@@ -1,0 +1,35 @@
+module tb;
+reg a1,b1;
+wire eq1,gt1,lt1;
+reg [3:0] a4,b4;
+wire eq4,gt4,lt4;
+comparator_1bit u1(.a(a1),.b(b1),.eq(eq1),.gt(gt1),.lt(lt1));
+comparator_4bit u2(.a(a4),.b(b4),.eq(eq4),.gt(gt4),.lt(lt4));
+initial begin
+$dumpfile("dump.vcd");
+$dumpvars(0,u1);
+$dumpvars(1,u2);
+$display("=== 1-bit Comparator ===");
+$display("A B | EQ GT LT");
+a1=0;b1=0;#10;$display("%b %b |  %b  %b  %b",a1,b1,eq1,gt1,lt1);
+a1=0;b1=1;#10;$display("%b %b |  %b  %b  %b",a1,b1,eq1,gt1,lt1);
+a1=1;b1=0;#10;$display("%b %b |  %b  %b  %b",a1,b1,eq1,gt1,lt1);
+a1=1;b1=1;#10;$display("%b %b |  %b  %b  %b",a1,b1,eq1,gt1,lt1);
+$display("=== 4-bit Comparator ===");
+$display("A    B    | EQ GT LT | Decimal");
+a4=4'd0;b4=4'd0;#10;
+$display("%b %b |  %b  %b  %b  | %0d==%0d",a4,b4,eq4,gt4,lt4,a4,b4);
+a4=4'd5;b4=4'd3;#10;
+$display("%b %b |  %b  %b  %b  | %0d>%0d",a4,b4,eq4,gt4,lt4,a4,b4);
+a4=4'd3;b4=4'd9;#10;
+$display("%b %b |  %b  %b  %b  | %0d<%0d",a4,b4,eq4,gt4,lt4,a4,b4);
+a4=4'd7;b4=4'd7;#10;
+$display("%b %b |  %b  %b  %b  | %0d==%0d",a4,b4,eq4,gt4,lt4,a4,b4);
+a4=4'd15;b4=4'd1;#10;
+$display("%b %b |  %b  %b  %b  | %0d>%0d",a4,b4,eq4,gt4,lt4,a4,b4);
+a4=4'd0;b4=4'd15;#10;
+$display("%b %b |  %b  %b  %b  | %0d<%0d",a4,b4,eq4,gt4,lt4,a4,b4);
+$display("=== Simulation Complete ===");
+$finish;
+end
+endmodule
