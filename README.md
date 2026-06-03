@@ -17,8 +17,8 @@ Progress Tracker
 | Day 08 | 4-bit Ripple Carry Adder | Bit vectors [3:0], bit indexing a[0]-a[3], carry propagation, propagation delay, multi-level hierarchy | ✅ Done |
 | Day 09 | 1-bit & 4-bit Comparator | Relational operators == > <, XNOR equality, magnitude comparison, ALU condition flags | ✅ Done |
 | Day 10 | Priority Encoder (4-to-2) | Priority if-else chain, valid output signal, interrupt controller logic, arbitration concept | ✅ Done |
-| Day 11 | Parameterized MUX | Parameters, reusable design | 🔲 |
-| Day 12 | Barrel Shifter | Shift operations | 🔲 |
+| Day 11 | Parameterized MUX | Parameters, reusable design | ✅ Done |
+| Day 12 | Barrel Shifter | Shift operations | ✅ Done |
 | Day 13 | 4-bit ALU | ALU design | 🔲 |
 | Day 14 | Parity Checker | XOR trees, error detection | 🔲 |
 | Day 15 | D Flip-Flop | Sequential intro, clock & reset | 🔲 |
