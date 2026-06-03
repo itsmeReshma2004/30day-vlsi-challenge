@@ -1,0 +1,29 @@
+module tb;
+reg [3:0] i0,i1,i2,i3,i4,i5,i6,i7;
+reg [2:0] sel;
+wire [3:0] y;
+mux8to1 #(.WIDTH(4)) uut(
+.i0(i0),.i1(i1),.i2(i2),.i3(i3),
+.i4(i4),.i5(i5),.i6(i6),.i7(i7),
+.sel(sel),.y(y)
+);
+initial begin
+$dumpfile("dump.vcd");
+$dumpvars(0,uut);
+i0=4'd1;i1=4'd2;i2=4'd3;i3=4'd4;
+i4=4'd5;i5=4'd6;i6=4'd7;i7=4'd8;
+$display("=== 8:1 Parameterized MUX (WIDTH=4) ===");
+$display("SEL | Y (decimal) | Expected");
+$display("----|-------------|--------");
+sel=3'b000;#10;$display(" %b  |     %0d       | i0=%0d",sel,y,i0);
+sel=3'b001;#10;$display(" %b  |     %0d       | i1=%0d",sel,y,i1);
+sel=3'b010;#10;$display(" %b  |     %0d       | i2=%0d",sel,y,i2);
+sel=3'b011;#10;$display(" %b  |     %0d       | i3=%0d",sel,y,i3);
+sel=3'b100;#10;$display(" %b  |     %0d       | i4=%0d",sel,y,i4);
+sel=3'b101;#10;$display(" %b  |     %0d       | i5=%0d",sel,y,i5);
+sel=3'b110;#10;$display(" %b  |     %0d       | i6=%0d",sel,y,i6);
+sel=3'b111;#10;$display(" %b  |     %0d       | i7=%0d",sel,y,i7);
+$display("=== Simulation Complete ===");
+$finish;
+end
+endmodule
