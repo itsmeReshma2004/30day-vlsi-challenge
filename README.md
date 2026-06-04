@@ -19,7 +19,7 @@ Progress Tracker
 | Day 10 | Priority Encoder (4-to-2) | Priority if-else chain, valid output signal, interrupt controller logic, arbitration concept | ✅ Done |
 | Day 11 | Parameterized MUX | Parameters, reusable design | ✅ Done |
 | Day 12 | Barrel Shifter | Shift operations | ✅ Done |
-| Day 13 | 4-bit ALU | ALU design | 🔲 |
+| Day 13 | 4-bit ALU | ALU design | ✅ Done  |
 | Day 14 | Parity Checker | XOR trees, error detection | 🔲 |
 | Day 15 | D Flip-Flop | Sequential intro, clock & reset | 🔲 |
 | Day 16 | 4-bit Register | Registers, load enable | 🔲 |
