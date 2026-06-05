@@ -20,8 +20,8 @@ Progress Tracker
 | Day 11 | Parameterized MUX | Parameters, reusable design | ✅ Done |
 | Day 12 | Barrel Shifter | Shift operations | ✅ Done |
 | Day 13 | 4-bit ALU | ALU design | ✅ Done  |
-| Day 14 | Parity Checker | XOR trees, error detection | 🔲 |
-| Day 15 | D Flip-Flop | Sequential intro, clock & reset | 🔲 |
+| Day 14 | Parity Checker | XOR trees, error detection | ✅ Done |
+| Day 15 | D Flip-Flop | Sequential intro, clock & reset | ✅ Done |
 | Day 16 | 4-bit Register | Registers, load enable | 🔲 |
 | Day 17 | Binary Counter | Up/down counting | 🔲 |
 | Day 18 | Shift Register | SIPO / PISO | 🔲 |
