@@ -22,9 +22,9 @@ Progress Tracker
 | Day 13 | 4-bit ALU | ALU design | ✅ Done  |
 | Day 14 | Parity Checker | XOR trees, error detection | ✅ Done |
 | Day 15 | D Flip-Flop | Sequential intro, clock & reset | ✅ Done |
-| Day 16 | 4-bit Register | Registers, load enable | 🔲 |
-| Day 17 | Binary Counter | Up/down counting | 🔲 |
-| Day 18 | Shift Register | SIPO / PISO | 🔲 |
+| Day 16 | 4-bit Register | Registers, load enable | ✅ Done |
+| Day 17 | Binary Counter | Up/down counting | ✅ Done |
+| Day 18 | Shift Register | SIPO / PISO | ✅ Done |
 | Day 19 | Traffic Light FSM | Moore/Mealy model | 🔲 |
 | Day 20 | Sequence Detector | State transitions | 🔲 |
 | Day 21 | Synchronous FIFO | Full/empty flags | 🔲 |
