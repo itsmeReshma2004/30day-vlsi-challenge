@@ -1,0 +1,96 @@
+module tb;
+reg clk;
+reg rst;
+reg [4:0] timer;
+wire red;
+wire yellow;
+wire green;
+
+traffic_light uut(
+.clk(clk),
+.rst(rst),
+.timer(timer),
+.red(red),
+.yellow(yellow),
+.green(green)
+);
+
+always #5 clk = ~clk;
+
+task show_state;
+begin
+if(red && !yellow && !green)
+$display("Timer=%0d | R=%b Y=%b G=%b | S1 RED -- STOP",timer,red,yellow,green);
+else if(!red && !yellow && green)
+$display("Timer=%0d | R=%b Y=%b G=%b | S2 GREEN -- GO",timer,red,yellow,green);
+else if(!red && yellow && !green)
+$display("Timer=%0d | R=%b Y=%b G=%b | S3 YELLOW -- SLOW",timer,red,yellow,green);
+end
+endtask
+
+initial begin
+$dumpfile("dump.vcd");
+$dumpvars(0,uut);
+
+clk   = 0;
+rst   = 1;
+timer = 5'd0;
+
+$display("=========================================");
+$display("   TRAFFIC LIGHT FSM — TIMER BASED      ");
+$display("=========================================");
+$display(" ");
+
+#12;
+rst = 0;
+
+$display("--- S1 RED: holds until timer reaches 20 ---");
+timer = 5'd0;  #10; show_state;
+timer = 5'd10; #10; show_state;
+timer = 5'd19; #10; show_state;
+
+$display(" ");
+$display("--- timer=20: transition to S2 GREEN ---");
+timer = 5'd20; #10; show_state;
+
+$display(" ");
+$display("--- S2 GREEN: holds until timer reaches 15 ---");
+timer = 5'd0;  #10; show_state;
+timer = 5'd10; #10; show_state;
+timer = 5'd14; #10; show_state;
+
+$display(" ");
+$display("--- timer=15: transition to S3 YELLOW ---");
+timer = 5'd15; #10; show_state;
+
+$display(" ");
+$display("--- S3 YELLOW: holds until timer reaches 5 ---");
+timer = 5'd0; #10; show_state;
+timer = 5'd4; #10; show_state;
+
+$display(" ");
+$display("--- timer=5: transition back to S1 RED ---");
+timer = 5'd5; #10; show_state;
+
+$display(" ");
+$display("--- Full automatic cycle ---");
+timer = 5'd20; #10; show_state;
+timer = 5'd15; #10; show_state;
+timer = 5'd5;  #10; show_state;
+timer = 5'd20; #10; show_state;
+
+$display(" ");
+$display("--- RESET test ---");
+rst = 1;
+#10; show_state;
+rst = 0;
+$display("Back to S1 RED after reset");
+timer = 5'd0; #10; show_state;
+
+$display(" ");
+$display("=========================================");
+$display("   SIMULATION COMPLETE                  ");
+$display("=========================================");
+$finish;
+end
+endmodule
