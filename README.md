@@ -25,9 +25,9 @@ Progress Tracker
 | Day 16 | 4-bit Register | Registers, load enable | ✅ Done |
 | Day 17 | Binary Counter | Up/down counting | ✅ Done |
 | Day 18 | Shift Register | SIPO / PISO | ✅ Done |
-| Day 19 | Traffic Light FSM | Moore/Mealy model | 🔲 |
-| Day 20 | Sequence Detector | State transitions | 🔲 |
-| Day 21 | Synchronous FIFO | Full/empty flags | 🔲 |
+| Day 19 | Traffic Light FSM | Moore/Mealy model | ✅ Done |
+| Day 20 | Sequence Detector | State transitions | ✅ Done |
+| Day 21 | Synchronous FIFO | Full/empty flags | ✅ Done |
 | Day 22 | Clock Divider | Frequency division | 🔲 |
 | Day 23 | PWM Generator | Duty cycle control | 🔲 |
 | Day 24 | UART Transmitter | Serial protocol | 🔲 |
