@@ -28,7 +28,7 @@ Progress Tracker
 | Day 19 | Traffic Light FSM | Moore/Mealy model | ✅ Done |
 | Day 20 | Sequence Detector | State transitions | ✅ Done |
 | Day 21 | Synchronous FIFO | Full/empty flags | ✅ Done |
-| Day 22 | Clock Divider | Frequency division | 🔲 |
+| Day 22 | Clock Divider | Frequency division | ✅ Done  |
 | Day 23 | PWM Generator | Duty cycle control | 🔲 |
 | Day 24 | UART Transmitter | Serial protocol | 🔲 |
 | Day 25 | Synchronous RAM | Memory design | 🔲 |
