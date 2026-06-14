@@ -29,7 +29,7 @@ Progress Tracker
 | Day 20 | Sequence Detector | State transitions | ✅ Done |
 | Day 21 | Synchronous FIFO | Full/empty flags | ✅ Done |
 | Day 22 | Clock Divider | Frequency division | ✅ Done  |
-| Day 23 | PWM Generator | Duty cycle control | 🔲 |
+| Day 23 | PWM Generator | Duty cycle control | ✅ Done |
 | Day 24 | UART Transmitter | Serial protocol | 🔲 |
 | Day 25 | Synchronous RAM | Memory design | 🔲 |
 | Day 26 | ROM Lookup Table | ROM-based design | 🔲 |
@@ -39,8 +39,7 @@ Progress Tracker
 | Day 30 | Digital Clock | Counters + display | 🔲 |
 
 ## Tools Used
-- EDA Playground (Icarus Verilog) — Weeks 1 and 2
-- Vivado ML Standard Edition — Weeks 3 and 4
+- EDA Playground (Icarus Verilog) 
 
 ## What I am building toward
 Week 1 → Verilog fundamentals and all modeling styles
