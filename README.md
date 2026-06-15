@@ -30,7 +30,7 @@ Progress Tracker
 | Day 21 | Synchronous FIFO | Full/empty flags | ✅ Done |
 | Day 22 | Clock Divider | Frequency division | ✅ Done  |
 | Day 23 | PWM Generator | Duty cycle control | ✅ Done |
-| Day 24 | UART Transmitter | Serial protocol | 🔲 |
+| Day 24 | UART Transmitter | Serial protocol | ✅ Done |
 | Day 25 | Synchronous RAM | Memory design | 🔲 |
 | Day 26 | ROM Lookup Table | ROM-based design | 🔲 |
 | Day 27 | Pipeline Adder | Pipelining, throughput | 🔲 |
