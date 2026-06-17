@@ -32,7 +32,7 @@ Progress Tracker
 | Day 23 | PWM Generator | Duty cycle control | ✅ Done |
 | Day 24 | UART Transmitter | Serial protocol | ✅ Done |
 | Day 25 | Synchronous RAM | Memory design | ✅ Done |
-| Day 26 | ROM Lookup Table | ROM-based design | 🔲 |
+| Day 26 | ROM Lookup Table | ROM-based design | ✅ Done |
 | Day 27 | Pipeline Adder | Pipelining, throughput | 🔲 |
 | Day 28 | Timing Analysis | Setup & hold time | 🔲 |
 | Day 29 | 4-bit Calculator | ALU + FSM + registers | 🔲 |
