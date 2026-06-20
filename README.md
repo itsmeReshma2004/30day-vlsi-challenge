@@ -34,7 +34,7 @@ Progress Tracker
 | Day 25 | Synchronous RAM | Memory design | ✅ Done |
 | Day 26 | ROM Lookup Table | ROM-based design | ✅ Done |
 | Day 27 | Pipeline Adder | Pipelining, throughput | ✅ Done |
-| Day 28 | Timing Analysis | Setup & hold time | 🔲 |
+| Day 28 | Timing Analysis | Setup & hold time | ✅ Done |
 | Day 29 | 4-bit Calculator | ALU + FSM + registers | 🔲 |
 | Day 30 | Digital Clock | Counters + display | 🔲 |
 
