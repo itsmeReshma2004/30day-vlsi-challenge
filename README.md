@@ -35,8 +35,8 @@ Progress Tracker
 | Day 26 | ROM Lookup Table | ROM-based design | ✅ Done |
 | Day 27 | Pipeline Adder | Pipelining, throughput | ✅ Done |
 | Day 28 | Timing Analysis | Setup & hold time | ✅ Done |
-| Day 29 | 4-bit Calculator | ALU + FSM + registers | 🔲 |
-| Day 30 | Digital Clock | Counters + display | 🔲 |
+| Day 29 | 4-bit Calculator | ALU + FSM + registers | ✅ Done |
+| Day 30 | Digital Clock | Counters + display | ✅ Done |
 
 ## Tools Used
 - EDA Playground (Icarus Verilog) 
